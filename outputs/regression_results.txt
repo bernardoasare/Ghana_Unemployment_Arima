@@ -1,0 +1,34 @@
+
+Call:
+lm(formula = Unemployment_Rate ~ GDP_Growth + Inflation_Rate + 
+    Population + Population_Growth_Rate, data = data)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0238579 -0.0086900 -0.0002914  0.0061696  0.0269810 
+
+Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)   
+(Intercept)             8.266e-02  6.062e-02   1.364  0.18439   
+GDP_Growth             -2.532e-01  1.040e-01  -2.435  0.02207 * 
+Inflation_Rate          3.924e-03  2.230e-02   0.176  0.86167   
+Population             -2.542e-09  8.319e-10  -3.056  0.00513 **
+Population_Growth_Rate  2.099e+00  1.732e+00   1.212  0.23646   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.01336 on 26 degrees of freedom
+Multiple R-squared:  0.7082,	Adjusted R-squared:  0.6634 
+F-statistic: 15.78 on 4 and 26 DF,  p-value: 1.133e-06
+
+            GDP_Growth         Inflation_Rate             Population 
+              1.181047               1.479318               3.450806 
+Population_Growth_Rate 
+              3.115997 
+
+	Durbin-Watson test
+
+data:  fit
+DW = 0.72924, p-value = 1.534e-06
+alternative hypothesis: true autocorrelation is greater than 0
+
