@@ -10,7 +10,7 @@ Regression and Box-Jenkins ARIMA analysis of 31 years of Ghana labour-market dat
 3. Where is it heading over the next five years, and how uncertain is that?
 
 ## Data
-Annual data, 1994–2024 (31 observations): unemployment rate, GDP growth, inflation, population and population growth rate. Sources: Ghana Statistical Service, World Bank World Development Indicators, ILO. File: `data/ghana_unemployment_1994_2024.csv` (rates stored as decimals, e.g. 0.059 = 5.9%).
+Annual data, 1994–2024 (31 observations): unemployment rate, GDP growth, inflation, population and population growth rate. Sources: Ghana Statistical Service, World Bank World Development Indicators, Macrotrends. File: `data/ghana_unemployment_1994_2024.csv` (rates stored as decimals, e.g. 0.059 = 5.9%).
 
 ## Method
 | Step | Technique |
