@@ -45,10 +45,12 @@ Tables are written to `outputs/` and figures to `figures/`.
 
 ## Project structure
 ```
-analysis.R          full analysis (regression + ARIMA)
-data/               cleaned dataset
-figures/            time series, ACF/PACF, residual diagnostics, forecast
-outputs/            result tables (descriptives, model comparison, forecast, regression)
+analysis.R — Full statistical analysis and ARIMA forecasting
+data/ — Cleaned dataset
+figures/ — Time-series charts, diagnostics, and forecast visualisations
+outputs/ — Result tables and model outputs
+Ghana_Unemployment_Economic_Trends.pbix — Interactive Power BI report
+Ghana_Unemployment_Economic_Trends Dashboard.pdf — PDF dashboard preview
 
 ## 📊 Power BI Interactive Dashboard
 ```
