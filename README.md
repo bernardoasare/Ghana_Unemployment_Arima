@@ -49,6 +49,26 @@ analysis.R          full analysis (regression + ARIMA)
 data/               cleaned dataset
 figures/            time series, ACF/PACF, residual diagnostics, forecast
 outputs/            result tables (descriptives, model comparison, forecast, regression)
+
+## 📊 Power BI Interactive Dashboard
+```
+To complement the statistical analysis and unemployment forecasting, this project includes a two-page Power BI dashboard exploring Ghana's unemployment trends and related economic and demographic indicators from 1994 to 2024.
+
+### Dashboard Highlights
+- **Unemployment Overview:** Average and peak unemployment rates, historical unemployment trends, GDP growth, and inflation.
+- **Economic Relationship Analysis:** A scatter plot exploring the association between GDP growth and unemployment.
+- **Demographic Analysis:** Population trends and population growth rates.
+- **Interactive Filtering:** A year slicer that updates the report visuals across both pages.
+- **Analytical Insights:** Key historical findings and an explanation of the limitations of the analysis.
+
+### Dashboard Files
+
+- [Power BI Report (.pbix)](dashboards/Ghana_Unemployment_Economic_Trends.pbix)
+- [PDF Dashboard Preview](dashboards/Ghana_Unemployment_Economic_Trends.pdf)
+
+**Tools:** Microsoft Power BI Desktop, DAX, data visualisation, and exploratory data analysis.
+
+**Note:** The dashboard presents historical patterns and associations. These should not be interpreted as evidence of causation. Please refer to the project's data documentation for source details and methodology.
 ```
 
 ## Author
