@@ -52,8 +52,8 @@ outputs/ — Result tables and model outputs
 Ghana_Unemployment_Economic_Trends.pbix — Interactive Power BI report
 Ghana_Unemployment_Economic_Trends Dashboard.pdf — PDF dashboard preview
 
-## 📊 Power BI Interactive Dashboard
 ```
+## 📊 Power BI Interactive Dashboard
 To complement the statistical analysis and unemployment forecasting, this project includes a two-page Power BI dashboard exploring Ghana's unemployment trends and related economic and demographic indicators from 1994 to 2024.
 
 ### Dashboard Highlights
